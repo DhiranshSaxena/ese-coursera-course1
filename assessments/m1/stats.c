@@ -92,7 +92,7 @@ unsigned char find_maximum (unsigned char *array, unsigned int counter){
     if (*(array + i) > maximum){
       maximum = *(array + i);
     }
-    else {} 
+    else {} // do nothing.
   }
   return maximum;
 }
